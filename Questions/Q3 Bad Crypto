@@ -1,0 +1,7 @@
+# Q3 Bad Crypto
+
+word = input().strip()
+
+unscrambled = word[2:] + word[0:2]
+
+print(unscrambled)
