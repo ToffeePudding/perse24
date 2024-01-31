@@ -1,0 +1,8 @@
+# Q6 Drip Tray
+# Partial Score 2/3
+Milkshake = 12
+while Milkshake >= 0:
+  Units = int(input())
+  Milkshake -= Units
+
+print(abs(Milkshake))
