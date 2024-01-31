@@ -1,0 +1,15 @@
+#Q5 Free Refills
+
+drink = input().strip()
+
+if drink == "c" or drink == "h" or drink == "t":
+ try: 
+  refills = int(input().strip())
+  if refills != "":
+    total_drinks = 1 + refills
+ except EOFError:
+   total_drinks = 1
+else:
+  total_drinks = 1
+
+print(total_drinks)
