@@ -1,0 +1,8 @@
+# Q2 Fair Rides
+Jamal_Money = int(input())
+Cost_of_rides = int(input())
+
+total_rides = Jamal_Money // Cost_of_rides
+
+print(total_rides)
+
