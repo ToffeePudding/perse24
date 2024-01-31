@@ -1,5 +1,13 @@
 #Q5 Free Refills
+# Partial Score
+drink = input().strip()
+refills = int(input().strip())
 
+total_drinks = 1 + refills
+
+print(total_drinks)
+
+# Full Score
 drink = input().strip()
 
 if drink == "c" or drink == "h" or drink == "t":
