@@ -1,0 +1,14 @@
+# Q4 Triplicate
+
+password1 = input().strip()
+password2 = input().strip()
+password3 = input().strip()
+
+if password1 == password2 and password1 == password3:
+  print("OK")
+elif password1 != password2 and password1 != password3:
+  print("BOTH MISMATCH")
+elif password1 != password2 and password1 == password3:
+  print("ENTRY 2 MISMATCH")
+elif password1 == password2 and password1 != password3:
+  print("ENTRY 3 MISMATCH")
