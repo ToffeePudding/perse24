@@ -1,0 +1,9 @@
+# Q1 Club Costs
+
+annual_hall_fee = int(input())
+monthly_subscription_fee = int(input())
+number_of_students = int(input())
+
+total = annual_hall_fee + (monthly_subscription_fee * number_of_students * 12)
+
+print(total)
